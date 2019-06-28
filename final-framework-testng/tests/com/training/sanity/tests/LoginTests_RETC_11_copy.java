@@ -53,10 +53,7 @@ public class LoginTests_RETC_11_copy {
 		loginPOM.mLogInClick();//calling my own defined LOGIN/REGISTER METHOD of LoginPOM.java class
 		loginPOM.sendUserName("admin");
 		loginPOM.sendPassword("adminuser@12345");
-		//admin@12345678910
-		//loginPOM.sendPassword("admin@12345678910");
-		//loginPOM.sendPassword("admin@123");
-		//loginPOM.sendPassword("manzoorupdated");
+		
 		loginPOM.clickLoginBtn(); 
 		screenShot.captureScreenShot("Test_RETC_011");
 	}
