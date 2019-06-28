@@ -72,7 +72,7 @@ public class RETC_014 {
 
 		loginPOM.mLogInClick();//calling my own defined LOGIN/REGISTER METHOD of LoginPOM.java class
 		loginPOM.sendUserName("admin");
-		//loginPOM.sendPassword("admin@123");
+		
 		loginPOM.sendPassword("adminuser@12345");
 		loginPOM.clickLoginBtn(); 
 
@@ -80,9 +80,9 @@ public class RETC_014 {
 		Thread.sleep(8000);
 		adminPOM.myprofileclick();//calling  METHODS of AdminPOM.java class
 		Thread.sleep(8000);
-		//profilePOM.generatepwd("adminuser@12345");
+		
 		profilePOM.generatepwd("admin@12345678910");
-		//admin@12345678910
+		
 		Thread.sleep(8000);
 		profilePOM.updatebuttonclick();
 
