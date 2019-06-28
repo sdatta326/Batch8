@@ -62,10 +62,7 @@ public class RETC_012 {
 	@Test  //TESTCASE ID=RETC_012
 	public void Test_RETC_012() throws InterruptedException {
 		loginPOM.mLogInClick();//calling my own defined LOGIN/REGISTER METHOD of LoginPOM.java class
-		//loginPOM.sendUserName("admin");
-		//loginPOM.sendPassword("admin@123");
-		//loginPOM.sendPassword("manzoorupdated");
-		//loginPOM.clickLoginBtn(); 
+		 
 		Thread.sleep(8000);
 		loginPOM.changePWD();
 		Thread.sleep(8000);
