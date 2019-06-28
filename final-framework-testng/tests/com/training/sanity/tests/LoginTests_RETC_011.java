@@ -21,7 +21,7 @@ public class LoginTests_RETC_011 {
 	private WebDriver driver;
 	private String baseUrl;
 	private LoginPOM loginPOM;
-	//private AdminPOM adminPOM;//my own code
+	
 	private static Properties properties;
 	private ScreenShot screenShot;
 
@@ -53,10 +53,7 @@ public class LoginTests_RETC_011 {
 		loginPOM.mLogInClick();//calling my own defined LOGIN/REGISTER METHOD of LoginPOM.java class
 		loginPOM.sendUserName("admin");
 		loginPOM.sendPassword("adminuser@12345");
-		//admin@12345678910
-		//loginPOM.sendPassword("admin@12345678910");
-		//loginPOM.sendPassword("admin@123");
-		//loginPOM.sendPassword("manzoorupdated");
+		
 		loginPOM.clickLoginBtn(); 
 		screenShot.captureScreenShot("Test_RETC_011");
 	}
